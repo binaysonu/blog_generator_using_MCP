@@ -1,6 +1,5 @@
 # Build an AI Agent with Google ADK - MCP Integration
 
-This repository contains the code for the second video in the series "Build an AI Agent with Google ADK". In this video, we extend the basic blogger agent by connecting it to a live Google Trends MCP server.
 
 ## Project Structure
 
