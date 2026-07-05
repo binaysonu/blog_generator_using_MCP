@@ -39,7 +39,4 @@ Open your browser and navigate to `http://127.0.0.1:8000` to interact with the a
 
 *Note: The MCP server starts automatically when the agent needs it. You do not need to run it separately.*
 
-## Key Learnings & Troubleshooting
 
-- **Handling Rate Limits**: Google Trends (via `pytrends`) often returns `429 Too Many Requests`. The `trends_server.py` is designed with a multi-layer fallback strategy (Related Queries -> Daily Trending -> Realtime Trending -> Keyword Echo) to ensure the agent remains robust even when the external API fails.
-- **Timeout Bug**: A previous version encountered `requests.api.get() got multiple values for keyword argument 'timeout'`. This was fixed by removing the explicit `requests_args` in `TrendReq` initialization.
