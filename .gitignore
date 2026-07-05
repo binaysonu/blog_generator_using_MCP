@@ -1,0 +1,10 @@
+# Environment variables (Sensitive API keys)
+.env
+
+# Python caching
+__pycache__/
+*.pyc
+
+# Local Google ADK internal workspace/cache files
+.adk/
+.adk*
